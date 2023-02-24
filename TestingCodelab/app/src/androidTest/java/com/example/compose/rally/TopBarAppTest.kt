@@ -21,11 +21,11 @@ class TopBarAppTest {
                 currentScreen = RallyScreen.Accounts
             )
         }
-//        composeTestRule
-//            .onNodeWithContentDescription(RallyScreen.Accounts.name)
-//            .assertIsSelected()
+        composeTestRule
+            .onNodeWithContentDescription(RallyScreen.Accounts.name)
+            .assertIsSelected()
 
-        //composeTestRule.onRoot(useUnmergedTree = true).printToLog("currentLabelExists")
+        composeTestRule.onRoot(useUnmergedTree = true).printToLog("currentLabelExists")
 
         composeTestRule
             .onNode(
